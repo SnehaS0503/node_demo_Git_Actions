@@ -7,7 +7,7 @@
     "build": "tsc",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "lint": "eslint src/**/*.ts",
+    "lint": "eslint src",
     "format:check": "prettier --check src/**/*.ts"
   },
   "jest": {
