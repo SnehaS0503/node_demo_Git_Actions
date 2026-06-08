@@ -10,9 +10,9 @@ module.exports = [
     plugins: {
       '@typescript-eslint': tseslint,
     },
-    rules: {
+    rules: {  
       ...tseslint.configs.recommended.rules,
-      'no-console': 'off',
+      'no-console': 'off', 
     },
   },
 ];
